@@ -35,22 +35,8 @@ Aplicación de escritorio en **Java** que gestiona un concesionario de automóvi
 ## 📂 Estructura del proyecto
 
 
+<img src="esquema.png" alt="Logo" width="300"/>
 
-concesionario/
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── org/
-│ │ │ └── example/
-│ │ │ ├── controller/ # Controladores (AutomovilController)
-│ │ │ ├── dao/ # Acceso a datos (AutomovilDAO)
-│ │ │ ├── model/ # Clases de entidad (Automovil.java)
-│ │ │ └── view/ # Interfaces gráficas (JForm/JPanel)
-│ │ └── resources/
-│ │ └── META-INF/
-│ │ └── persistence.xml # Configuración de persistencia
-├── pom.xml # Configuración de Maven y dependencias
-└── README.md # Documentación del proyecto
 
 
 ---
