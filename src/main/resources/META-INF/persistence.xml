@@ -30,8 +30,8 @@
                  - ccrp06_concesionario → nombre de la base de datos
                  - useSSL=false → desactiva SSL -->
 
-            <property name="jakarta.persistence.jdbc.user" value="alumno"/> <!-- Usuario de la BD -->
-            <property name="jakarta.persistence.jdbc.password" value="AlumnoSanz$1"/> <!-- Contraseña -->
+            <property name="jakarta.persistence.jdbc.user" value=" USUARIO "/> <!-- Usuario de la BD -->
+            <property name="jakarta.persistence.jdbc.password" value=" CLAVE "/> <!-- Contraseña -->
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/> <!-- Driver JDBC -->
 
             <!-- Dialecto de Hibernate (instrucciones SQL adaptadas a MariaDB/MySQL) -->
@@ -53,3 +53,4 @@
         </properties>
     </persistence-unit>
 </persistence>
+
